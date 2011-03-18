@@ -74,10 +74,10 @@ static NSString * const kADBannerViewClass = @"ADBannerView";
 
 - (BOOL)validate {
 	// If the enlistment date is in the future, settings are invalid
-	if ([[enlistmentDatePicker date] compare:[NSDate date]] == NSOrderedDescending) 
+	/*if ([[enlistmentDatePicker date] compare:[NSDate date]] == NSOrderedDescending) 
 	{
 		return NO;
-	}
+	}*/
 	
 	return YES;
 }
@@ -131,7 +131,7 @@ static NSString * const kADBannerViewClass = @"ADBannerView";
 
 - (void)didReceiveMemoryWarning {
 	// Releases the view if it doesn't have a superview.
-    [super didReceiveMemoryWarning];
+	[super didReceiveMemoryWarning];
 	
 	// Release any cached data, images, etc that aren't in use.
 }
@@ -162,7 +162,7 @@ static NSString * const kADBannerViewClass = @"ADBannerView";
 
 
 - (void)dealloc {
-    [super dealloc];
+	[super dealloc];
 }
 
 

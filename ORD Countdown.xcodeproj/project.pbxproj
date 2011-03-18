@@ -18,6 +18,8 @@
 		289233AE0DB2D0DB0083E9F9 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 289233A90DB2D0DB0083E9F9 /* MainViewController.m */; };
 		289233B00DB2D0DB0083E9F9 /* FlipsideViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 289233AD0DB2D0DB0083E9F9 /* FlipsideViewController.m */; };
 		E72A0AF21306F3EA0091FD59 /* Background.png in Resources */ = {isa = PBXBuildFile; fileRef = E72A0AF11306F3EA0091FD59 /* Background.png */; };
+		E7874D85132C9C4B004C1034 /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = E7874D83132C9C4B004C1034 /* LICENSE */; };
+		E7874D86132C9C4B004C1034 /* README in Resources */ = {isa = PBXBuildFile; fileRef = E7874D84132C9C4B004C1034 /* README */; };
 		E7F4D6291307DC580012FE98 /* iAd.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E7F4D6281307DC580012FE98 /* iAd.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
 		E7F4D6891307EC6A0012FE98 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = E7F4D6881307EC6A0012FE98 /* Default.png */; };
 		E7F4D7031307FD720012FE98 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = E7F4D7021307FD720012FE98 /* Icon.png */; };
@@ -41,6 +43,8 @@
 		32CA4F630368D1EE00C91783 /* ORD_Countdown_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ORD_Countdown_Prefix.pch; sourceTree = "<group>"; };
 		8D1107310486CEB800E47090 /* ORD_Countdown-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "ORD_Countdown-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = "<group>"; };
 		E72A0AF11306F3EA0091FD59 /* Background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Background.png; sourceTree = "<group>"; };
+		E7874D83132C9C4B004C1034 /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		E7874D84132C9C4B004C1034 /* README */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README; sourceTree = "<group>"; };
 		E7F4D6281307DC580012FE98 /* iAd.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = iAd.framework; path = System/Library/Frameworks/iAd.framework; sourceTree = SDKROOT; };
 		E7F4D6881307EC6A0012FE98 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
 		E7F4D7021307FD720012FE98 /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
@@ -123,6 +127,8 @@
 		29B97317FDCFA39411CA2CEA /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				E7874D83132C9C4B004C1034 /* LICENSE */,
+				E7874D84132C9C4B004C1034 /* README */,
 				E7F4D7021307FD720012FE98 /* Icon.png */,
 				E7F4D6881307EC6A0012FE98 /* Default.png */,
 				E72A0AF11306F3EA0091FD59 /* Background.png */,
@@ -201,6 +207,8 @@
 				E72A0AF21306F3EA0091FD59 /* Background.png in Resources */,
 				E7F4D6891307EC6A0012FE98 /* Default.png in Resources */,
 				E7F4D7031307FD720012FE98 /* Icon.png in Resources */,
+				E7874D85132C9C4B004C1034 /* LICENSE in Resources */,
+				E7874D86132C9C4B004C1034 /* README in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

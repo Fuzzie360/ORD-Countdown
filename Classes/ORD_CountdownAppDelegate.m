@@ -82,6 +82,7 @@
 }
 
 - (void)applicationSignificantTimeChange:(UIApplication *)application {
+	// Refresh main view upon midnight
 	[mainViewController update];
 }
 

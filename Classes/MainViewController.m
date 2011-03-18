@@ -104,9 +104,9 @@
 	[minusOneDay setDay:-1];
 	NSDate *ORDDate = [calendar dateByAddingComponents:serviceDuration toDate:enlistmentDate options:0];
 	
-	// If NSMan ORDed no calculations are necessary
 	ORDDate = [calendar dateByAddingComponents:minusOneDay toDate:ORDDate options:0];
 	if ([ORDDate compare:[NSDate date]] == NSOrderedAscending) {
+		// If NSMan ORDed no calculations are necessary
 		[daysORDLabel setText:[NSString stringWithFormat:@"%d", 0]];
 		[daysWorkingLabel setText:[NSString stringWithFormat:@"%d", 0]];
 		[daysHolidayLabel setText:[NSString stringWithFormat:@"%d", 0]];
@@ -116,6 +116,9 @@
 		[leaveLabel setText:[NSString stringWithFormat:@"%d", 0]];
 		
 		return;
+	} else if ([enlistmentDate compare:[NSDate date]] == NSOrderedDescending) {
+		// If NSMan have not enlisted, calculations should use enlistment date to prevent negative values
+		now = enlistmentDate;
 	}
 	// Get days to ORD 
 	NSDateComponents *serviceLeftDays = [calendar components:NSDayCalendarUnit|NSHourCalendarUnit fromDate:now toDate:ORDDate options:0];

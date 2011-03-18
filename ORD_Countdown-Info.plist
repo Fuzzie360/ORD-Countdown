@@ -6,6 +6,8 @@
 	<string>English</string>
 	<key>CFBundleDisplayName</key>
 	<string>ORD</string>
+	<key>CFBundleDocumentTypes</key>
+	<array/>
 	<key>CFBundleExecutable</key>
 	<string>${EXECUTABLE_NAME}</string>
 	<key>CFBundleIconFile</key>
@@ -22,10 +24,14 @@
 	<string>${PRODUCT_NAME}</string>
 	<key>CFBundlePackageType</key>
 	<string>APPL</string>
+	<key>CFBundleShortVersionString</key>
+	<string>1.02</string>
 	<key>CFBundleSignature</key>
 	<string>????</string>
+	<key>CFBundleURLTypes</key>
+	<array/>
 	<key>CFBundleVersion</key>
-	<string>1.01</string>
+	<string>1.02</string>
 	<key>LSRequiresIPhoneOS</key>
 	<true/>
 	<key>NSMainNibFile</key>
@@ -36,5 +42,9 @@
 	<array>
 		<string>UIInterfaceOrientationPortrait</string>
 	</array>
+	<key>UTExportedTypeDeclarations</key>
+	<array/>
+	<key>UTImportedTypeDeclarations</key>
+	<array/>
 </dict>
 </plist>

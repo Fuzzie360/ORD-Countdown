@@ -12,7 +12,7 @@ Simple iOS countdown app for Full-time National Servicemen (i.e. conscripts) of 
 5. Save the settings. Your settings will be remembered the next time you start the app.
 
 ## Screenshots
-![App's main view](https://github.com/Fuzzie360/ORD-Countdown.app/wiki/Screenshot-1.png)&nbsp;![Configuration page](https://github.com/Fuzzie360/ORD-Countdown.app/wiki/Screenshot-2.png|alt=Configuration page)
+![App's main view](https://github.com/Fuzzie360/ORD-Countdown.app/wiki/Screenshot-1.png)&nbsp;![Configuration page](https://github.com/Fuzzie360/ORD-Countdown.app/wiki/Screenshot-2.png)
 
 ## Bugs & Suggestions?
 Please use the GitHub project's issue tracker.

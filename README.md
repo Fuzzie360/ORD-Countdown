@@ -1,5 +1,5 @@
 # ORD Countdown.app
-Simple iOS countdown app for Full-time National Servicemen (i.e. conscripts) of the Singapore Armed Forces.
+Simple iOS countdown app for Full-time National Servicemen of the Singapore Armed Forces.
 
 ## Downloads
 [ORD Countdown.app on Singapore iTunes Store (free)](http://itunes.apple.com/sg/app/ord-countdown/id424008013?mt=8#)

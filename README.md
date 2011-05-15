@@ -17,7 +17,7 @@ Simple iOS countdown app for Full-time National Servicemen of the Singapore Arme
 ## Bugs & Suggestions?
 Please use the GitHub project's issue tracker.
 
-You may contact the author at [fuzzie360@gmail.com](mailto:fuzzie360@gmail.com).
+You may contact the author at [fazli@sapuan.org](mailto:fazli@sapuan.org).
 
 ## Copyrights and License
 
